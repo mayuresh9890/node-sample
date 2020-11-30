@@ -1,2 +1,2 @@
-# node-sample
-node tutorial
+# CORE MODULES
+	http, https, fs, os, path.
