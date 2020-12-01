@@ -64,4 +64,7 @@
             "console": "integratedTerminal",
         }
     ]
+    
+    This article will be very helpful: 
+    https://code.visualstudio.com/docs/nodejs/nodejs-debugging
 
