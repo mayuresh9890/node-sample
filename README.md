@@ -39,4 +39,7 @@
 	npm install --save express-session
 	// In code file (e.g. app.js)
 	const sessions = require('express-session');
+	
+ # Autorestart the server:
+ 	using nodemon
 
