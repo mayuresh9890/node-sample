@@ -61,6 +61,7 @@
             "program": "${workspaceFolder}\\app.js",
             "restart": true,
             "runtimeExecutable": "nodemon",
+            "console": "integratedTerminal",
         }
     ]
 
