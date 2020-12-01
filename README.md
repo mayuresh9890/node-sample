@@ -41,7 +41,10 @@
 	const sessions = require('express-session');
 	
  # Autorestart the server:
- 	using nodemon
+ 	Using nodemon
+	To install nodemon we have to use following commands
+	npm i nodemon -g
+	
  # To add debug configuration
  	to restart debugger whenever you change in the file, you need to add some configuration in file
 	Run -> Add Configuration -> select enviroment
