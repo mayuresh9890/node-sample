@@ -70,6 +70,8 @@
     
 # What is Express.Js
 	Writing server side logic is complex so express js help us to write simple code.
-	command tu install express js:
+	Command to install express js:
 	npm i --save express
+	Command to install body parser:
+	npm -i --save body-parser
 
