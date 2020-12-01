@@ -42,4 +42,22 @@
 	
  # Autorestart the server:
  	using nodemon
+ # To add debug configuration
+ 	to restart debugger whenever you change in the file, you need to add some configuration in file
+	Run -> Add Configuration -> select enviroment
+	then in the launch.js file need to add some properties
+	
+	"configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Launch Program",
+            "skipFiles": [
+                "<node_internals>/**"
+            ],
+            "program": "${workspaceFolder}\\app.js",
+            "restart": true,
+            "runtimeExecutable": "nodemon",
+        }
+    ]
 
